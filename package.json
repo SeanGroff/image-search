@@ -22,7 +22,8 @@
   "homepage": "https://github.com/SeanGroff/image-search#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "mongoose": "^5.0.0-rc2"
+    "mongoose": "^5.0.0-rc2",
+    "node-fetch": "^1.7.3"
   },
   "devDependencies": {
     "dotenv": "^4.0.0",

@@ -9,6 +9,18 @@
 <body>
   <div class="container">
     <h1>FCC Image Search</h1>
+    <h2>User stories:</h2>
+    <ul>
+      <li>I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</li>
+      <li>I can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+      <li>I can get a list of the most recently submitted search strings.</li>
+    </ul>
+    <h3>Example image search:</h3>
+    <code>https://branch-squid.glitch.me/api/imagesearch/funny memes</code>
+    <h3>Example Image Search with Pagination</h3>
+    <code>https://branch-squid.glitch.me/api/imagesearch/funny memes?offset=2</code>
+    <h3>View most recent search strings</h3>
+    <code>https://branch-squid.glitch.me/api/latest/imagesearch</code>
   </div>
 </body>
 </html>

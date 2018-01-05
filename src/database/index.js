@@ -14,4 +14,11 @@ module.exports = {
       console.log(`Error connecting to the Database: ${err}`);
     }
   },
+  save: async function(model) {
+    try {
+      await model.save();
+    } catch (err) {
+      console.log(`Error: Save to Database Failed: ${err}`);
+    }
+  },
 };

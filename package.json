@@ -1,0 +1,32 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "engines": {
+    "node": "9.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanGroff/image-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanGroff/image-search/issues"
+  },
+  "homepage": "https://github.com/SeanGroff/image-search#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc2"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.14.7",
+    "prettier": "^1.9.2"
+  }
+}
